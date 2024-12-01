@@ -96,7 +96,7 @@ function Navbar() {
               <audio
                 ref={audioElementRef}
                 className='hidden'
-                src='/public/audio/loop.mp3'
+                src='public/audio/loop.mp3'
                 loop
               />
               {[1, 2, 3, 4, 5].map((bar) => (
